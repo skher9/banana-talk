@@ -1,4 +1,27 @@
-.App {
+html,body{
   text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: larger;
   font-family: Dancing Script;
+  background-color: #F4F27E;
+}
+
+textarea{
+  height: 100px;
+  width: 250px;
+}
+
+.Body{
+  display: flex;
+ flex-direction: column;
+}
+
+.btn{
+  margin-top: 10px;
+  background-color: transparent;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
 }
